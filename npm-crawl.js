@@ -1,5 +1,5 @@
-var utils = require("./npm-utils");
-var SemVer = require('./semver');
+var utils = require("./npm-utils.js");
+var SemVer = require('./semver.js');
 /**
  * @module {{}} system-npm/crawl
  * Exports helpers used for crawling package.json
