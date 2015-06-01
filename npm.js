@@ -1,8 +1,8 @@
 "format cjs";
 
 // TODO: cleanup removing package.json
-var utils = require('./npm-utils');
-var crawl = require('./npm-crawl');
+var utils = require('./npm-utils.js');
+var crawl = require('./npm-crawl.js');
 
 
 // Add @loader, for SystemJS
