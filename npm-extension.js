@@ -1,6 +1,6 @@
 "format cjs";
 
-var utils = require("./npm-utils");
+var utils = require("./npm-utils.js");
 exports.includeInBuild = true;
 
 exports.addExtension = function(System){
