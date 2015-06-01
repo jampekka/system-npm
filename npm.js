@@ -163,7 +163,7 @@ function convertName (context, pkg, map, root, name) {
 					depPkg = pkg;
 				} else {
 					var requestedProject = crawl.getDependencyMap(context.loader, pkg, root)[parsed.packageName];
-					if(!requestedProject) {
+					if(!requestedProject && root) {
 						warn(name);
 						return name;
 					}
